@@ -7,7 +7,19 @@
     android:orientation="vertical"
     tools:context=".Menu"
     android:gravity="center"
+    android:background="#000"
     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skull Filmes"
+        android:layout_gravity="center"
+        android:textColor="#ffff"
+        android:textSize="50dp">
+
+    </TextView>
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -18,7 +30,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/clientebutton"
-        android:text="Venda"
+        android:text="Filme"
         android:onClick="clientebutton"
         android:background="@drawable/btn_padrao"
         android:textColor="#fff"
@@ -30,7 +42,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/funcionariobutton"
-        android:text="Produto"
+        android:text="Gênero"
         android:onClick="funcionariobutton"
         android:background="@drawable/btn_padrao"
         android:textColor="#fff"
@@ -38,12 +50,9 @@
         android:textSize="15dp"
 
         />
-</LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+
+
 
 
 
@@ -51,7 +60,7 @@
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:id="@+id/agendabutton"
-        android:text="Item Venda"
+        android:text="Edição"
         android:onClick="agendabutton"
         android:background="@drawable/btn_padrao"
         android:textColor="#fff"
@@ -59,8 +68,8 @@
         android:textSize="15dp"
         />
 
-    </LinearLayout>
 
+</LinearLayout>
 
 
 </LinearLayout>

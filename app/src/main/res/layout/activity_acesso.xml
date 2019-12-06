@@ -7,25 +7,25 @@
     android:orientation="vertical"
     tools:context=".AcessoActivity"
     android:layout_margin="10dp"
-
+    android:background="#000"
     >
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/login_logo"
+        android:layout_width="322dp"
+        android:layout_height="290dp"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        />
+        android:src="@drawable/fundo" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/acessotextlogin"
         android:inputType="textPersonName"
-        android:hint="Login"
+        android:hint="USUARIO"
         android:textSize="20sp"
         android:layout_marginTop="25dp"
+        android:background="#ffff"
         />
 
     <EditText
@@ -35,12 +35,14 @@
         android:textSize="20sp"
         android:inputType="textPassword"
         android:layout_marginTop="10dp"
-        android:hint="Password"/>
+        android:hint="SENHA"
+        android:background="#ffff"
+        />
 
     <Button
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="ENTRAR"
         android:id="@+id/acessobutton"
         android:textColor="#ffff"
         android:textSize="20dp"

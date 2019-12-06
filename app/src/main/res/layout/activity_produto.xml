@@ -5,37 +5,50 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
-tools:context=".ProdutoActivity">
+tools:context=".ProdutoActivity"
+    android:background="#FC000000"
+    >
 
 <EditText
     android:layout_width="350dp"
-    android:layout_height="wrap_content"
+    android:layout_height="60dp"
     android:id="@+id/firstname_input_produto"
-    android:hint="PRODUTO"
-    android:layout_marginTop="10dp"
+    android:hint="Gênero"
+    android:layout_marginTop="15dp"
     android:textSize="20dp"
     android:layout_gravity="center"
+    android:background="#fff"
 
     />
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        >
+
+
 
 <Button
-    android:layout_width="300dp"
+    android:layout_width="150dp"
     android:layout_height="60dp"
-    android:text="ADD FUNCIONARIO"
+    android:text="ADD FILME"
     android:id="@+id/button_add_funcionario"
     android:onClick="addprod"
     android:layout_gravity="center"
     android:background="@drawable/btn_padrao"
     android:textColor="#ffff"
     android:textSize="20dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
     />
 
 <Button
-    android:layout_width="300dp"
+    android:layout_width="150dp"
     android:layout_height="60dp"
-    android:text="DELETE FUNCIONARIO"
+    android:text="DELETE FILME"
     android:id="@+id/button_delete_funcionario"
     android:onClick="delete"
     android:layout_gravity="center"
@@ -44,11 +57,20 @@ tools:context=".ProdutoActivity">
     android:textSize="20dp"
     android:layout_marginTop="10dp"
     />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
 
 <Button
-    android:layout_width="300dp"
+    android:layout_width="150dp"
     android:layout_height="60dp"
-    android:text="UPDATE FUNCIONARIO"
+    android:text="UPDATE FILME"
     android:id="@+id/button_update_funcionario"
     android:onClick="update"
     android:layout_gravity="center"
@@ -56,12 +78,13 @@ tools:context=".ProdutoActivity">
     android:textColor="#ffff"
     android:textSize="20dp"
     android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
     />
 
 <Button
-    android:layout_width="300dp"
+    android:layout_width="150dp"
     android:layout_height="60dp"
-    android:text="LIST FUNCIONARIO"
+    android:text="LIST FILMES"
     android:id="@+id/button_list_funcionario"
     android:onClick="list"
     android:layout_gravity="center"
@@ -70,6 +93,7 @@ tools:context=".ProdutoActivity">
     android:textSize="20dp"
     android:layout_marginTop="10dp"
     />
+    </LinearLayout>
 
 <TextView
     android:layout_width="match_parent"
@@ -78,7 +102,7 @@ tools:context=".ProdutoActivity">
     android:text="large text"
     android:id="@+id/textviewproduto"
     android:gravity="center"
-
+    android:textColor="#ffff"
     />
 
 

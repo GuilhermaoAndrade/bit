@@ -1,8 +1,8 @@
 package com.example.crud;
 
 public class ModeloUsuario {
-    private static final String LOGIN = "Guilherme";
-    private static final String SENHA = "1234";
+    private static final String LOGIN = "adm";
+    private static final String SENHA = "adm";
 
     private String login;
     private String senha;
