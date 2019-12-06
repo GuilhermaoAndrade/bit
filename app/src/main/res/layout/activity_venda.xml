@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VendaActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname_input"
+        android:hint="Nome"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="ADD CLIENTE"
+        android:id="@+id/button_add"
+        android:onClick="add"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_padrao"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="DELETE CLIENTE"
+        android:id="@+id/button_delete"
+        android:onClick="delete"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_padrao"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="UPDATE CLIENTE"
+        android:id="@+id/button_update"
+        android:onClick="update"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_padrao"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="LIST CLIENTE"
+        android:id="@+id/button_list"
+        android:onClick="list"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_padrao"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="large text"
+        android:id="@+id/textview"
+        android:gravity="center"/>
+
+
+
+
+
+</LinearLayout>
